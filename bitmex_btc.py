@@ -17,8 +17,8 @@ def send_mail():
     global message, sended_time, sended
 
     message = Mail(
-        from_email='oshimamasara@yahoo.co.jp',
-        to_emails='oshimamasara@gmail.com',
+        from_email='〇〇@yahoo.co.jp',
+        to_emails='〇〇@gmail.com',
         subject='MyBotからのお知らせ　変動率: ' + str(percent),
         html_content='本文なし')
     try:
